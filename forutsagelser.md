@@ -15,13 +15,14 @@ Skriv din gissning FÖRST. Skriv sedan raden i STEG 7 i `src/main.ts`, kör den 
 
 Skriv en mening med egna ord för varje uttryck du hade fel på.
 
-`"5" - 3`: Javascript har automatisk typkonvertering. Värden omvandlas ibland till lämpliga datatyper. Tänk på typkonvertering!
+1. `"5" - 3`: Javascript har automatisk typkonvertering. Värden omvandlas ibland till lämpliga datatyper. Tänk på typkonvertering!
 
-`true + 1`: Här omvandlas true (boolean) till 1 (number) så att den kan utföra beräkningen 1 + 1. Tänk på typkonvertering!
+2. `true + 1`: Här omvandlas true (boolean) till 1 (number) så att den kan utföra beräkningen 1 + 1. Tänk på typkonvertering!
 
-`0.1 + 0.2`: Decimaltal lagras i binärt format. Det kan ge små avrundningsfel när vi utför beräkningar.
+3. `0.1 + 0.2`: Decimaltal lagras i binärt format. Det kan ge små avrundningsfel när vi utför beräkningar.
 
-`null == undefined`: Det är skillnad på == och ===. === jämför datatyp och värde utan att konvertera, men == tillåter typkonvertering. Enligt föreläsningen anser javascript `false`, `0`, `""`, `null`, `undefined` och `NaN` som falska värden. Allt annat är sant. Så i detta fall jämförs ett falskt värde med ett falskt värde och vi får då true.
+4. `null == undefined`: Det är skillnad på == och ===. === jämför datatyp och värde utan att konvertera, men == tillåter typkonvertering. Enligt föreläsningen anser javascript `false`, `0`, `""`, `null`, `undefined` och `NaN` som falska värden. Allt annat är sant. Så i detta fall jämförs ett falskt värde med ett falskt värde och vi får då true.  
+**Tillägg**: Jag hade inte helt rätt här... JavaScript har specialregler för `==` och enligt dessa gäller det att detta uttryck är `true`. Det har inget med `falsy` och `truthy` att göra. 
 
 ### Sammanfattat:
 1. `==` och `===` är olika: `==` tillåter typkonvertering. `===` kräver samma datatyp och samma värde.
