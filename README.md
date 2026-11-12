@@ -125,14 +125,14 @@ Att betala: 91.80 kr
 
 ## Kontrollista: så vet du att du är klar
 
-- [ ] `src/main.ts` skriver ut kvittot i Console utan röda felmeddelanden.
-- [ ] `npm run typecheck` ger ingen utskrift (inga typfel).
-- [ ] Du använder `const` för värden som inte ändras och `let` för värden som ändras.
-- [ ] Variablerna har typer där du skrev dem: `string`, `number`, `boolean`.
-- [ ] Mallsträngar används i utskrifterna (backticks och `${...}`).
-- [ ] Villkoren för rabatt och öppettider fungerar för alla fyra testfallen.
-- [ ] Du har fyllt i `forutsagelser.md` med gissning *före* resultat.
-- [ ] Du har gjort minst fyra commits, med meddelanden som beskriver vad du gjorde.
+- [X] `src/main.ts` skriver ut kvittot i Console utan röda felmeddelanden.
+- [X] `npm run typecheck` ger ingen utskrift (inga typfel).
+- [X] Du använder `const` för värden som inte ändras och `let` för värden som ändras.
+- [X] Variablerna har typer där du skrev dem: `string`, `number`, `boolean`.
+- [X] Mallsträngar används i utskrifterna (backticks och `${...}`).
+- [X] Villkoren för rabatt och öppettider fungerar för alla fyra testfallen.
+- [X] Du har fyllt i `forutsagelser.md` med gissning *före* resultat.
+- [X] Du har gjort minst fyra commits, med meddelanden som beskriver vad du gjorde.
 
 ## Tips om du fastnar
 
