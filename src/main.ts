@@ -92,4 +92,19 @@ console.log(`Öppet just nu: ${text}`)
 
 // STEG 7 ------------------------------------------------------------
 // TODO: se README. Gissa först, kör sedan.
+// Se forutsagelser.md för gissningar och svar
 
+console.log("5" + 3);
+
+// @ts-expect-error
+console.log("5" - 3);
+
+// @ts-expect-error
+console.log(true + 1);
+
+console.log(0.1 + 0.2);
+
+// @ts-expect-error
+console.log("" === 0);
+
+console.log(null == undefined);
