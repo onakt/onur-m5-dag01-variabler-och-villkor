@@ -4,6 +4,7 @@
 
 // STEG 1 ------------------------------------------------------------
 // TODO: skriv ut texten "Hej från Kafé Kardemumma" med console.log
+console.log("Hej från Kafé Kardemumma");
 
 
 // STEG 2 ------------------------------------------------------------
