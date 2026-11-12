@@ -9,9 +9,18 @@ console.log("Hej från Kafé Kardemumma");
 
 // STEG 2 ------------------------------------------------------------
 // TODO: skapa konstanten kafeNamn (string) med värdet "Kafé Kardemumma"
+const kafeNamn: string = "Kafé Kardemumma";
+
 // TODO: skapa konstanterna prisBulle (number, 35) och prisKaffe (number, 32)
+const prisBulle: number = 35;
+const prisKaffe: number = 32;
+
 // TODO: skapa variablerna antalBullar (2) och antalKaffe (1) med let, båda number
+let antalBullar: number = 2;
+let antalKaffe: number = 1;
+
 // TODO: skriv ut kafeNamn
+console.log(kafeNamn);
 //       Skriv typen själv, till exempel:  const kafeNamn: string = "..."
 
 
