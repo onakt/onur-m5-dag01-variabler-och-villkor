@@ -26,9 +26,19 @@ console.log(kafeNamn);
 
 // STEG 3 ------------------------------------------------------------
 // TODO: skapa en string, ett number, en boolean, en undefined och en null
+const stringTest: string = "Test";
+const numberTest: number = 7357;
+const booleanTest: boolean = true;
+let undefinedTest;
+const nullTest = null;
+
+
 //       Typerna heter string, number, boolean, undefined och null
 // TODO: skriv ut typeof för alla fem på en rad (tips: separera med komma)
+console.log(typeof stringTest, typeof numberTest, typeof booleanTest, typeof undefinedTest, typeof nullTest);
+
 // TODO: prova att ge number-variabeln en text. Vad säger TypeScript?
+// Den säger: "Error: Type 'string' is not assignable to type 'number'."
 
 
 // STEG 4 ------------------------------------------------------------
