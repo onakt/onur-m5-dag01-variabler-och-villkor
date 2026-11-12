@@ -43,10 +43,16 @@ console.log(typeof stringTest, typeof numberTest, typeof booleanTest, typeof und
 
 // STEG 4 ------------------------------------------------------------
 // TODO: räkna ut summa = antalBullar * prisBulle + antalKaffe * prisKaffe
+const summa: number = antalBullar * prisBulle + antalKaffe * prisKaffe;
+
 // TODO: räkna ut momsDel (12 % ingår i priset): summa * 0.12 / 1.12
+const momsDel: number = summa * 0.12 / 1.12;
+
 // TODO: skriv ut "Summa: ... kr" och "Varav moms (12 %): ... kr"
+console.log(`Summa: ${summa} kr\nVarav moms (12 %): ${momsDel.toFixed(2)} kr`);
 //       Moms ska ha två decimaler (toFixed(2))
 //       Håll musen över momsDel.toFixed(2). Vilken typ ger toFixed?
+//       SVAR: toFixed ger typen string
 
 
 // STEG 5 ------------------------------------------------------------
